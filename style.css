@@ -106,41 +106,36 @@ main {
 .navbar .contact {
     position: relative;
 }
-.navbar .contact a {
-    font-weight: 500;
-}
-.contact .contact-list {
-    z-index: 9999;
-    visibility: hidden;
+
+.navbar .contact-list {
     position: absolute;
-    background-color: var(--black);
     right: 0;
-    padding: 0.4rem 0.4rem 1.2rem 0.2rem;
-    margin: 0.4rem 0 0 0;
+    top: 3rem;
     border-radius: 0.2rem;
+    text-align: end;
+    background-color: var(--black);
+    padding: 1rem 0.4rem 1rem 1rem;
+    visibility: hidden;
     opacity: 0;
-    transition: opacity 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
-.contact .contact-list.active {
+.contact-list.active {
     visibility: visible;
     opacity: 1;
 }
-
-
-.contact .contact-list a {
+.contact-list a {
     color: var(--white);
-    font-weight: 400;
+    display: block;
+    margin: 0;
     font-size: 0.7rem;
+    padding: 0.2rem 0;
 }
-.contact .contact-list li {
-    list-style: none;
-    text-align: right;
-    margin-left: -4rem;
-    padding: 0.1rem 0;
-}
-.contact .contact-list li i {
+.contact-list i {
     color: var(--white);
 }
+
+
+
 
 
 
@@ -148,18 +143,9 @@ main {
 
 .title {
     margin: 0;
-    position: relative;
-}
-.title h1 {
-    background-color: #ecb4c7;
-    border-radius: 0.4rem;
-    color: var(--black);
-    font-size: 4rem;
-    text-align: center;
-    padding: 0 0 1rem 0;
     
-    /* background-color: red; */
 }
+
 img {
     width: 100%;
     margin-bottom: 1rem;
