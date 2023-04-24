@@ -3,12 +3,17 @@
 :root {
     --black: #363231;
     --white: #eee;
+    --pure-white: #fff;
     --pink: #ecb4c7;
     --green: #247a5d;
-    --blue: #3c8db3;
+    --blue: #72b9ff;
     --red: #db4464;
     --shadow-black: #33333333;
     --font: 'Readex Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -18,7 +23,9 @@
 }
 
 hr {
-    margin: 1rem 0;
+    margin: 1.25rem 0;
+    box-shadow: none;
+    border: 0.25px solid var(--shadow-black);
 }
 a {
     text-decoration: none;
@@ -176,20 +183,25 @@ img {
 .subtitle {
     font-size: 3rem;
     font-weight: 600;
-    background-color: var(--blue);
+    background-color: var(--black);
     color: var(--white);
     border-radius: 0.4rem;
     padding: 0.6rem 1rem;
 }
 
-.project-item h1 {
+.item h1 {
     font-weight: 400;
     font-size: 2rem;
 }
-.project-item .date {
+.item .date {
     margin: 0.6rem 0;
     opacity: 0.6;
     font-size: 0.9rem;
+}
+
+.item li {
+    font-weight: 300;
+    margin-left: -1rem;
 }
 
 h1 img {
@@ -205,6 +217,20 @@ h1 img {
 .read-more {
     margin: 1rem 0;
 }
+
+
+/* EXPERIENCE EDUCATION */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
